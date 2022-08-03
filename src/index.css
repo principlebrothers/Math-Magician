@@ -17,6 +17,7 @@
 
 .results {
   background-color: gray;
+  color: #fff;
   text-align: right;
   font-size: 2rem;
   padding: 20px;
@@ -44,11 +45,13 @@
 
 .zero {
   grid-column: 1/ span 2;
+  padding: 0;
 }
 
 button {
   padding: 10%;
   font-size: 22px;
+  border: 1px solid #fff;
 }
 
 .numberKeys {
