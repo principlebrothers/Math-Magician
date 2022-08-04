@@ -38,4 +38,5 @@ const Calculator = () => {
 };
 
 Calculator.defaultProps = { total: 0, operations: '', next: 0 };
+
 export default Calculator;
