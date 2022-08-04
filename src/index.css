@@ -11,14 +11,14 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 2.0rem;
+  padding: 2rem;
   gap: 2px;
 }
 
-.calculator  * {
+.calculator * {
   padding: 1.5rem 0;
   font-size: 1.5rem;
-  border: 1px solid #fff ;
+  border: 1px solid #fff;
   font-weight: 600;
 }
 
@@ -26,8 +26,8 @@
   grid-column: 1/ span 4;
   background-color: rgb(80, 77, 77);
   text-align: right;
-  font-size: 2.0rem;
-  padding: 2.0rem;
+  font-size: 2rem;
+  padding: 2rem;
   font-weight: bold;
   color: #fff;
 }
