@@ -6,69 +6,40 @@
 
 .calculator {
   display: grid;
-  grid-template-areas:
-    "results results results results"
-    "gOpsBody gOpsBody gOpsBody sideOps"
-    "numBody numBody numBody sideOps"
-    "numBody numBody numBody sideOps";
+  grid-template-columns: repeat(4, 1fr);
   width: 50%;
-  margin: 10% auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  gap: 2px;
 }
 
-.results {
-  background-color: gray;
-  color: #fff;
+.calculator * {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+
+.display {
+  grid-column: 1/ span 4;
+  background-color: rgb(80, 77, 77);
   text-align: right;
   font-size: 2rem;
-  padding: 20px;
+  padding: 2rem;
+  font-weight: bold;
+  color: #fff;
 }
 
-.sideOps {
-  display: grid;
-}
-
-.calculator > .results {
-  grid-area: results;
-}
-
-.calculator > .gOpsBody {
-  grid-area: gOpsBody;
-}
-
-.calculator > .numBody {
-  grid-area: numBody;
-}
-
-.calculator > .sideOps {
-  grid-area: sideOps;
+button {
+  cursor: pointer;
 }
 
 .zero {
   grid-column: 1/ span 2;
-  padding: 0;
 }
 
-button {
-  padding: 10%;
-  font-size: 22px;
-  border: 1px solid #fff;
-}
-
-.numberKeys {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.operators {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.controls {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.symbol {
-  background-color: rgb(245, 140, 42);
+.operator {
+  background-color: rgb(253, 151, 55);
 }
