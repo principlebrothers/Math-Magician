@@ -11,6 +11,9 @@ const Calculator = () => {
 
   return (
     <main>
+      <section className="mainPage-text">
+        <h1>Let&apos;s do some Math!</h1>
+      </section>
       <section className="calculator">
         <p className="display">{(calc.total || '') + (calc.operation || '') + (calc.next || '') || 0 }</p>
         <button type="button" id="AC" onClick={handleClick}>AC</button>

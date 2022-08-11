@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mainPage-text h1 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 50%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 2rem;
+  padding: 1rem;
   gap: 2px;
 }
 
@@ -34,6 +44,10 @@
 
 button {
   cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid lightslategray;
 }
 
 .zero {
