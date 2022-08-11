@@ -13,7 +13,7 @@ class App extends React.Component {
         <Router>
           <Nav />
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/quotes" element={<Quotes />} />
           </Routes>
