@@ -1,12 +1,15 @@
 import React from 'react';
-import './style/Nav.css'
+import './style/Nav.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <div className="navContainer">
       <div className="logoContainer">
-        <div className="logo"><span className='logoMath'>Math</span>magician</div>
+        <div className="logo">
+          <span className="logoMath">Math</span>
+          magician
+        </div>
       </div>
       <nav className="navLinks">
         <Link to="/home">Home</Link>
