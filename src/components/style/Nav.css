@@ -1,0 +1,48 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161616;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logoContainer {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 1px 0 1px rgb(10, 250, 198);
+}
+
+.logo {
+  color: #504d4d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.logoMath {
+  color: #fd9737;
+}
+
+.navLinks > * {
+  margin: 0 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.navLinks > *:hover {
+  color: rgb(10, 250, 198);
+  border: 1px solid #fff;
+  transition: color ease-in-out 0.5ms;
+}
+
+.navLinks > *:active {
+  color: rgb(15, 14, 53);
+  background: #fff;
+  border: 1px solid rgb(15, 14, 53);
+  transition: color ease-in-out 0.5ms;
+}
