@@ -1,4 +1,4 @@
-import calculate from "./calculate";
+import calculate from './calculate';
 
 describe('Arithmetic Computation', () => {
   test('This is to set the next number to be 4', () => {

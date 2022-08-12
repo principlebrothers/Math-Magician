@@ -4,8 +4,7 @@ import {
 } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Calculator from "./Calculator";
-
+import Calculator from './Calculator';
 
 test('should render calculator', () => {
   const calc = render(<Router><Calculator /></Router>);
