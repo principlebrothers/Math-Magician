@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://emath-magician.netlify.app/)
 
 
 # Getting Started with Create React App
