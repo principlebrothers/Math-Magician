@@ -19,6 +19,7 @@
 ## Live Demo
 
 [Live Demo Link](https://emath-magician.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ffbdd6db-ec20-4ae9-9e55-f6ccc43222f9/deploy-status)](https://app.netlify.com/sites/emath-magician/deploys)
 
 
